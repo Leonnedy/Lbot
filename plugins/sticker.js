@@ -14,7 +14,7 @@ let handler  = async (m, { conn, args }) => {
     if (stiker) conn.sendMessage(m.chat, stiker, MessageType.sticker, {
       quoted: m
     })
-    else throw 'si sale esto, selecciona la foto de nuevo XD'
+    else throw 'LRCDTPTMR FILHO DA PUTA COMO CUANTAS PUTAS VECES TENGO QUE DECIR QUE PRIMERO DEBEN ENVIAR UNA IMAGEN Y USAR EL PUTO COMANDO PARA HACER EL PUTO STICKER, ES QUE SU CEREBRO INSIGNIFICANTE NO PUEDE ENTENDER ESO?1!!1'
   }
 }
 handler.help = ['stiker (caption|reply media)', 'stiker <url>', 'stikergif (caption|reply media)', 'stikergif <url>']
