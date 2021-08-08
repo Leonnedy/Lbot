@@ -1,0 +1,16 @@
+// return images of cats
+
+let cat = await utils.cat()
+
+console.log(cat)
+handler.command = /^(me)$/i
+
+//Output => "https://no-api-key.com/image/cat/52107.png"
+
+// returns facts about cats
+
+let catfact = await utils.catfact()
+
+console.log(catfact)
+
+//Output => "Without a specific nutrient, cats can go blind."
