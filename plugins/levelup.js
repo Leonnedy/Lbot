@@ -11,7 +11,7 @@ Menos *${max - user.exp}* te faltan puntos!
   }
   user.level++
   m.reply(`
-¡Felicitaciones, has subido de nivel oWo!
+¡Felicitaciones, has subido de nivel mi pana 🤝!
 *${user.level - 1}* -> *${user.level}*
   `.trim())
 }
